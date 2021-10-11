@@ -31,6 +31,6 @@ jobs:
       - name: Step 3 - Test project(s) with Maven
         run: |
           echo Testing Project 1
-          cd code/CodeCoverage_Sample
+          cd code
           mvn --batch-mode --update-snapshots verify
           cd ../..
