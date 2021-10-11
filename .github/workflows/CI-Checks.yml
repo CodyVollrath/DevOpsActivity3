@@ -33,4 +33,4 @@ jobs:
           echo Testing Project 1
           cd code/CodeCoverage_Sample
           mvn --batch-mode --update-snapshots verify
-          cd../..
+          cd ../..
