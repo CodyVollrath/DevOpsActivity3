@@ -93,4 +93,9 @@ class TestCheckGuess {
 		);
 	}
 
+	@Test
+	void testFail() {
+		assertTrue(false);
+	}
+
 }
